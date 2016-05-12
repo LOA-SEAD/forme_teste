@@ -2,5 +2,19 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Event sheet 1</name>
-    <events />
+    <events>
+        <event-block sid="8272592802920767">
+            <conditions>
+                <condition id="-18" name="On created" sid="1302247262438354" type="Particles" />
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="9618964001739345" type="System">
+                    <param id="0" name="Object to create">Sprite</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">400</param>
+                    <param id="3" name="Y">400</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
 </c2eventsheet>
