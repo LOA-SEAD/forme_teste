@@ -12,6 +12,7 @@
     <used-plugins>
         <plugin author="Scirra" id="Particles" version="1">Particles</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
     </used-plugins>
     <used-behaviors />
     <used-effects />
@@ -53,13 +54,23 @@
             <plugin id="Particles" />
             <texture />
         </object-type>
+        <object-type name="TiledBackground" sid="4881335127021568">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="TiledBackground2" sid="834181902953115">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\Douglas\Desktop\forme-se\solo.png" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
         <layout>Layout 1.xml</layout>
+        <layout>Layout 2.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Event sheet 1.xml</event-sheet>
+        <event-sheet>Event sheet 2.xml</event-sheet>
     </event-folder>
     <global-instances />
     <sounds-folder />
