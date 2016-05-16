@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Event sheet 2</name>
     <events>
+        <variable constant="0" name="Oi" sid="5934783282174734" static="0" type="text">&quot;Olá!&quot;</variable>
         <event-block sid="823582047448457">
             <conditions>
                 <condition id="-8" name="Compare two values" sid="366580134353737" type="System">
@@ -13,6 +14,13 @@
             </conditions>
             <actions>
                 <action id="-9" name="Destroy" sid="330664524341528" type="TiledBackground2" />
+                <action id="-8" name="Set angle" sid="3193651626287036" type="TiledBackground">
+                    <param id="0" name="Angle">45</param>
+                </action>
+                <action id="-9" name="Set value" sid="3546792066592676" type="System">
+                    <param id="0" name="Variable">Oi</param>
+                    <param id="1" name="Value">&quot;DO A BARREL ROLL!!!&quot;</param>
+                </action>
             </actions>
         </event-block>
     </events>
