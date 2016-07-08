@@ -16,5 +16,15 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="9817714375150685">
+            <conditions>
+                <condition id="-18" name="On created" sid="5608816428111919" type="Sprite2" />
+            </conditions>
+            <actions>
+                <action id="-6" name="Set height" sid="9348843853327298" type="Sprite2">
+                    <param id="0" name="Height">Sprite2.Height + 50</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
