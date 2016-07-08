@@ -12,6 +12,7 @@
     <used-plugins>
         <plugin author="Scirra" id="Particles" version="1">Particles</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
     </used-plugins>
     <used-behaviors />
@@ -62,6 +63,12 @@
             <plugin id="TiledBg" />
             <texture original-source="C:\Users\Douglas\Desktop\forme-se\solo.png" />
         </object-type>
+        <object-type name="Fonte1" sid="1248408982405137">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Fonte2" sid="7599472350602401">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -83,6 +90,13 @@
             <file name="icon-128.png" />
             <file name="icon-256.png" />
             <file name="loading-logo.png" />
+        </file-folder>
+        <file-folder name="brankovicregular">
+            <file name="brankovicregular.eot" />
+            <file name="brankovicregular.svg" />
+            <file name="brankovicregular.ttf" />
+            <file name="brankovicregular.woff" />
+            <file name="stylesheet.css" />
         </file-folder>
     </files-folder>
 </c2project>
