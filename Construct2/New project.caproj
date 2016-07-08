@@ -82,6 +82,9 @@
         <object-type name="Fonte1" sid="6670035887035252">
             <plugin id="Text" />
         </object-type>
+        <object-type name="Fonte2" sid="7599472350602401">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -103,6 +106,13 @@
             <file name="icon-128.png" />
             <file name="icon-256.png" />
             <file name="loading-logo.png" />
+        </file-folder>
+        <file-folder name="brankovicregular">
+            <file name="brankovicregular.eot" />
+            <file name="brankovicregular.svg" />
+            <file name="brankovicregular.ttf" />
+            <file name="brankovicregular.woff" />
+            <file name="stylesheet.css" />
         </file-folder>
     </files-folder>
 </c2project>
